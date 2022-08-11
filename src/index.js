@@ -1,3 +1,6 @@
+import './main.css';
+import '../style/index.css';
+
 import button from './module/buttonHandler.js';
 import heading from './module/heading.js';
 import image from './module/imageContainer.js';
