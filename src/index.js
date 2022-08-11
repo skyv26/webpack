@@ -1,5 +1,5 @@
-import './main.css';
-import '../style/index.css';
+import './main.scss';
+import '../style/index.scss';
 
 import button from './module/buttonHandler.js';
 import heading from './module/heading.js';
