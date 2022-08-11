@@ -1,6 +1,6 @@
-import button from './buttonHandler.js';
-import heading from './heading.js';
-import image from './imageContainer.js';
+import button from './module/buttonHandler.js';
+import heading from './module/heading.js';
+import image from './module/imageContainer.js';
 
 const buttonComponent = button();
 const headingComponent = heading();
