@@ -7,6 +7,7 @@ module.exports = merge(common, {
   devtool: false,
   output: {
     filename: 'index.[contenthash].js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    assetModuleFilename: 'assets/[contenthash][ext][query]',
   }
 });
